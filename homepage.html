@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Home Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: black
+  padding: 20px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: Green;
+
+}
+
+.topnav a {
+
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color:Green;
+  color: red;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 33%;
+}
+
+.column.middle {
+  
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color:Green;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body bgcolor="black" text="white">
+
+<div class="header">
+  <h1>My Home Page</h1>
+  <p>Welcome!!</p>
+</div>
+
+<div class="topnav">
+  <h4>
+  <a href="nc.html">About Me</a>
+	<a href="myfamily.html">My Family</a>
+  <a href="qualification.html">My Qualification</a>
+  <a href="TandA.html">My Tranings and Achievements</a>
+  </h4>
+
+</div>
+
+<div class="row">
+  
+  <div class="column side">
+    <h2>You cannot merely cross the sea just by staring at water from the bank.</h2>
+  </div>
+  
+  <div class="column side">
+   <p align="centre"> <h2> <u> <t> Main Content in my website </u></h2>
+   <ul>
+    <h2> <li> About Me</li>
+     <li> About My family</li>
+      <li> Contacting Me </li>
+  </h2>  </ul> </p>
+   
+    
+  </div>
+  
+  <div class="column side">
+    <h2>When everybody suggests to give up , Hope whispers "Try it once again".</h2>
+  </div>
+</div>
+
+<div class="footer">
+  <p> <h3> CAUTION: This is my first attempt. Please suggest me how can i make this webpage better </h3> </p>
+</div>
+  
+</body>
+</html>
